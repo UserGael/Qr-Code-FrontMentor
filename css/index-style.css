@@ -1,0 +1,42 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: var(--Light-gray);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#qrCard{
+    background-color: var(--White);
+    border-radius: 4%;
+    padding: 15px;
+    width: 320px;
+}
+#qrContainer img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+#cardText{
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    color: var(--Dark-blue);
+    margin: 8px 0px;
+}
+#cardText p{
+    color: var(--Grayish-blue);
+    margin-top: 12px;
+}
